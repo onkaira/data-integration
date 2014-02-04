@@ -1,9 +1,9 @@
 data-integration
 ================
 
-this project was created during my master degree for educational purpose.
+Projetct : the integration and interrogation of heterogeneous data.
 
-the project is the integration and the interrogation of heterogeneous data.
+this project was created during my master degree for educational purpose.
 
 data : neo4j, hbase, tdb, d2rq
 
