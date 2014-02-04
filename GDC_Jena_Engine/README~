@@ -1,0 +1,20 @@
+Mapping :
+	-Le Mapping est réalisé dans le fichier "projet.n3"
+	-Le schéma rdf implémentée dans le fichier de mapping est décrit de la manière suivante :
+	
+						
+																												     Commune-------communeDansReg------>Region<-----------------
+																																			  									|				
+																																												|
+				Impot-------codeInseeLocalite----------------->	Localite---------CodeInseeCommune----------->	Commune-------communeDansDep------>Departement-------depDansReg
+																	|												 |
+																	|												 |
+																	|											armInCommune
+																	|												 |
+																	|												 |
+																	---------CodeInseeARM----------------------->	ARM
+																	
+																	
+Résultats des requête :
+	- un menu est mis en place pour faciliter l'exécution des requêtes.
+	- Les résultats seront affichés sur l'écran et stoqués dans des fichiers "txt" dans la racine du projet.

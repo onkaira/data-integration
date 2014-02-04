@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------------------------------------------------------------
+| commune                                                  | region                                                                  |
+======================================================================================================================================
+| "Bordeaux"^^<http://www.w3.org/2001/XMLSchema#string>    | "Aquitaine"^^<http://www.w3.org/2001/XMLSchema#string>                  |
+| "Paris"^^<http://www.w3.org/2001/XMLSchema#string>       | "Île-de-France"^^<http://www.w3.org/2001/XMLSchema#string>              |
+| "Montpellier"^^<http://www.w3.org/2001/XMLSchema#string> | "Languedoc-Roussillon"^^<http://www.w3.org/2001/XMLSchema#string>       |
+| "Lyon"^^<http://www.w3.org/2001/XMLSchema#string>        | "Rhône-Alpes"^^<http://www.w3.org/2001/XMLSchema#string>                |
+| "Marseille"^^<http://www.w3.org/2001/XMLSchema#string>   | "Provence-Alpes-Côte d'Azur"^^<http://www.w3.org/2001/XMLSchema#string> |
+--------------------------------------------------------------------------------------------------------------------------------------

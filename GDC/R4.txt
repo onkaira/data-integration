@@ -1,0 +1,31 @@
+---------------------------------------------------------------------
+| commune                                                           |
+=====================================================================
+| "Marseille"^^<http://www.w3.org/2001/XMLSchema#string>            |
+| "Caen"^^<http://www.w3.org/2001/XMLSchema#string>                 |
+| "Dijon"^^<http://www.w3.org/2001/XMLSchema#string>                |
+| "Besançon"^^<http://www.w3.org/2001/XMLSchema#string>             |
+| "Ajaccio"^^<http://www.w3.org/2001/XMLSchema#string>              |
+| "Toulouse"^^<http://www.w3.org/2001/XMLSchema#string>             |
+| "Bordeaux"^^<http://www.w3.org/2001/XMLSchema#string>             |
+| "Montpellier"^^<http://www.w3.org/2001/XMLSchema#string>          |
+| "Rennes"^^<http://www.w3.org/2001/XMLSchema#string>               |
+| "Nantes"^^<http://www.w3.org/2001/XMLSchema#string>               |
+| "Orléans"^^<http://www.w3.org/2001/XMLSchema#string>              |
+| "Châlons-en-Champagne"^^<http://www.w3.org/2001/XMLSchema#string> |
+| "Metz"^^<http://www.w3.org/2001/XMLSchema#string>                 |
+| "Lille"^^<http://www.w3.org/2001/XMLSchema#string>                |
+| "Clermont-Ferrand"^^<http://www.w3.org/2001/XMLSchema#string>     |
+| "Strasbourg"^^<http://www.w3.org/2001/XMLSchema#string>           |
+| "Lyon"^^<http://www.w3.org/2001/XMLSchema#string>                 |
+| "Paris"^^<http://www.w3.org/2001/XMLSchema#string>                |
+| "Rouen"^^<http://www.w3.org/2001/XMLSchema#string>                |
+| "Amiens"^^<http://www.w3.org/2001/XMLSchema#string>               |
+| "Poitiers"^^<http://www.w3.org/2001/XMLSchema#string>             |
+| "Limoges"^^<http://www.w3.org/2001/XMLSchema#string>              |
+| "Basse-Terre"^^<http://www.w3.org/2001/XMLSchema#string>          |
+| "Fort-de-France"^^<http://www.w3.org/2001/XMLSchema#string>       |
+| "Cayenne"^^<http://www.w3.org/2001/XMLSchema#string>              |
+| "Saint-Denis"^^<http://www.w3.org/2001/XMLSchema#string>          |
+| "Dzaoudzi"^^<http://www.w3.org/2001/XMLSchema#string>             |
+---------------------------------------------------------------------

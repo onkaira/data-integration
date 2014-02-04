@@ -1,0 +1,164 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Jeu. Janv. 23 03:42:06 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   sante_ctl.txt
+Character Set UTF8 specified for all input.
+
+Data File:      sante.csv
+  Bad File:     sante.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SANTE_DEP, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+IDDEP                               FIRST     *  WHT      CHARACTER            
+    SQL string for column : "to_char(:idDep)"
+DEPNAME                              NEXT     *  WHT      CHARACTER            
+    SQL string for column : "to_char(:depName)"
+NBHOPITAUX                           NEXT     *  WHT      CHARACTER            
+    SQL string for column : "to_char(:nbHopitaux)"
+NBPHARMACIES                         NEXT     *  WHT      CHARACTER            
+    SQL string for column : "to_char(:nbPharmacies)"
+
+Record 1: Rejected - Error on table SANTE_DEP, column NBPHARMACIES.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."NBPHARMACIES" (actual: 12, maximum: 10)
+
+Record 5: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 22, maximum: 10)
+
+Record 6: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 12, maximum: 10)
+
+Record 7: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 15, maximum: 10)
+
+Record 14: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 17, maximum: 10)
+
+Record 18: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 17, maximum: 10)
+
+Record 22: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 14, maximum: 10)
+
+Record 28: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 12, maximum: 10)
+
+Record 29: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 11, maximum: 10)
+
+Record 31: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 13, maximum: 10)
+
+Record 35: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 15, maximum: 10)
+
+Record 37: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 13, maximum: 10)
+
+Record 41: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 12, maximum: 10)
+
+Record 43: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 11, maximum: 10)
+
+Record 44: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 16, maximum: 10)
+
+Record 47: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 14, maximum: 10)
+
+Record 49: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 14, maximum: 10)
+
+Record 52: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 11, maximum: 10)
+
+Record 54: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 18, maximum: 10)
+
+Record 62: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 12, maximum: 10)
+
+Record 63: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 11, maximum: 10)
+
+Record 64: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 24, maximum: 10)
+
+Record 65: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 19, maximum: 10)
+
+Record 66: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 23, maximum: 10)
+
+Record 70: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 13, maximum: 10)
+
+Record 71: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 16, maximum: 10)
+
+Record 74: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 12, maximum: 10)
+
+Record 76: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 14, maximum: 10)
+
+Record 77: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 14, maximum: 10)
+
+Record 79: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 12, maximum: 10)
+
+Record 82: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 15, maximum: 10)
+
+Record 87: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 12, maximum: 10)
+
+Record 90: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 20, maximum: 10)
+
+Record 92: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 13, maximum: 10)
+
+Record 93: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 16, maximum: 10)
+
+Record 94: Rejected - Error on table SANTE_DEP, column DEPNAME.
+ORA-12899: value too large for column "ONK"."SANTE_DEP"."DEPNAME" (actual: 11, maximum: 10)
+
+
+Table SANTE_DEP:
+  59 Rows successfully loaded.
+  36 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  66048 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            95
+Total logical records rejected:        36
+Total logical records discarded:        0
+
+Run began on Jeu. Janv. 23 03:42:06 2014
+Run ended on Jeu. Janv. 23 03:42:06 2014
+
+Elapsed time was:     00:00:00.11
+CPU time was:         00:00:00.01

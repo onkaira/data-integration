@@ -1,0 +1,22 @@
+LOAD DATA 
+CHARACTERSET UTF8
+INFILE 'cog.csv'
+APPEND
+INTO TABLE COG
+FIELDS TERMINATED BY X'9'
+( cdc  "to_char(:cdc)",
+cl "to_char(:cl)",
+codeReg "to_char(:codeReg)",
+codeDep  "to_char(:codeDep)",
+codeCommune "to_char(:codeCommune)",
+ar "to_char(:ar)",
+ct  "to_char(:ct)",
+tncc "to_char(:tncc)",
+artmaj "to_char(:artmaj)",
+ncc  "to_char(:ncc)",
+artmin "to_char(:artmin)",
+nccenr "to_char(:nccenr)"
+)
+
+
+

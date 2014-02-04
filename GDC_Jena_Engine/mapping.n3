@@ -1,0 +1,194 @@
+@prefix map: <file:fm.n3#> .
+@prefix db: <> .
+@prefix reg: <http://www.projet.fr/region#> .
+@prefix dep: <http://www.projet.fr/departement#> .
+@prefix cog: <http://www.projet.fr/commune#> .
+@prefix isf: <http://www.projet.fr/impot#> .
+@prefix loc: <http://www.projet.fr/localite#> .
+@prefix arm: <http://www.projet.fr/arrondissement_municipal#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+
+map:database a d2rq:Database;
+	d2rq:jdbcDriver "oracle.jdbc.driver.OracleDriver";
+	d2rq:jdbcDSN "jdbc:oracle:thin:@onk:1521:XE";
+	d2rq:username "onk";
+	d2rq:password "onk";
+.
+
+# Table Region
+map:Region a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://www.projet.fr/region#@@REGION.REGION@@";
+	d2rq:class reg:Region;
+.
+
+map:nomRegion a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Region;
+	d2rq:property reg:nomRegion;
+	d2rq:column "REGION.NCCENR";
+	d2rq:datatype xsd:string;
+.
+
+map:CFRegion a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Region;
+	d2rq:property reg:CFRegion;
+	d2rq:column "REGION.CHEFLIEU";
+	d2rq:datatype xsd:string;
+.
+
+# Table Departement
+map:Departement a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://www.projet.fr/departement#@@DEPARTEMENT.DEPARTEMENT@@";
+	d2rq:class dep:Departement;
+.
+
+map:CFDepartement a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Departement;
+	d2rq:property dep:CFDepartement;
+	d2rq:column "DEPARTEMENT.CHEFLIEU";
+	d2rq:datatype xsd:string;
+.
+
+map:nomDepartement a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Departement;
+	d2rq:property dep:nomDepartement;
+	d2rq:column "DEPARTEMENT.NCCENR";
+	d2rq:datatype xsd:string;
+.
+
+map:depInReg a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Departement;
+	d2rq:property dep:depInReg;
+	d2rq:refersToClassMap map:Region;
+	d2rq:join "DEPARTEMENT.REGION=REGION.REGION";
+.
+
+# Table Commune
+map:Commune a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://www.projet.fr/commune#@@COG_R.CODEINSEE@@";
+	d2rq:class cog:Commune;
+.
+
+map:nomCommune a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Commune;
+	d2rq:property cog:nomCommune;
+	d2rq:column "COG_R.NCCENR";
+	d2rq:datatype xsd:string;
+.
+
+map:aChefLieu a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Commune;
+	d2rq:property cog:aChefLieu;
+	d2rq:column "COG_R.CL";
+	d2rq:datatype xsd:string;
+.
+
+map:CDCCommune a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Commune;
+	d2rq:property cog:CDCCommune;
+	d2rq:column "COG.CDC";
+	d2rq:datatype xsd:string;
+.
+
+map:communeInReg a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Commune;
+	d2rq:property cog:communeInReg;
+	d2rq:refersToClassMap map:Region;
+	d2rq:join "COG_R.CODEREG=REGION.REGION";
+.
+
+map:communeInDep a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Commune;
+	d2rq:property cog:communeInDep;
+	d2rq:refersToClassMap map:Departement;
+	d2rq:join "COG_R.CODEDEP=DEPARTEMENT.DEPARTEMENT";
+.
+
+# Table arrondissement_municipal
+map:Arrondissement_Municipal a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://www.projet.fr/arrondissement_municipal#@@ARRONDISSEMENT_MUNICIPAL.CODEINSEE@@";
+	d2rq:class arm:Arrondissement_Municipal;
+.
+
+map:nomARM a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Arrondissement_Municipal;
+	d2rq:property arm:nomARM;
+	d2rq:column "ARRONDISSEMENT_MUNICIPAL.NARM";
+	d2rq:datatype xsd:string;
+.
+
+map:armInCommune a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Arrondissement_Municipal;
+	d2rq:property arm:armInCommune;
+	d2rq:refersToClassMap map:Commune;
+	d2rq:join "ARRONDISSEMENT_MUNICIPAL.CODECOMMUNE=COG_R.CODEINSEE";
+.
+
+# Table Localite
+map:Localite a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://www.projet.fr/localite#@@LOCALITE.CODEINSEE@@";
+	d2rq:class loc:Localite;
+.
+
+map:codeInseeCommune a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Localite;
+	d2rq:property loc:codeInseeCommune;
+	d2rq:refersToClassMap map:Commune;
+	d2rq:join "LOCALITE.CODEINSEE=COG_R.CODEINSEE";
+.
+
+map:codeInseeARM a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Localite;
+	d2rq:property loc:codeInseeARM;
+	d2rq:refersToClassMap map:Arrondissement_Municipal;
+	d2rq:join "LOCALITE.CODEINSEE=ARRONDISSEMENT_MUNICIPAL.CODEINSEE";
+.
+
+# Table Impot
+map:Impot a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://www.projet.fr/impot#@@IMPOT.CODEIMP@@";
+	d2rq:class isf:Impot;
+.
+
+map:codeInseeLocalite a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Impot;
+	d2rq:property isf:codeInseeLocalite;
+	d2rq:refersToClassMap map:Localite;
+	d2rq:join "IMPOT.CODEINSEE=LOCALITE.CODEINSEE";
+.
+
+map:nbrRedevable a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Impot;
+	d2rq:property isf:nbrRedevable;
+	d2rq:column "IMPOT.NBREREDEVABLE";
+	d2rq:datatype xsd:decimal;
+.
+
+map:patrimoineM a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Impot;
+	d2rq:property isf:patrimoineM;
+	d2rq:column "IMPOT.PATRIMOINEM";
+	d2rq:datatype xsd:decimal;
+.
+map:impotMoyen a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Impot;
+	d2rq:property isf:impotMoyen;
+	d2rq:column "IMPOT.IMPOTMOYEN";
+	d2rq:datatype xsd:decimal;
+.
+
+map:annee a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Impot;
+	d2rq:property isf:annee;
+	d2rq:column "IMPOT.ANNEE";
+	d2rq:datatype xsd:decimal;
+.
+

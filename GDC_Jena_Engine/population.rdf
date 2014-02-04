@@ -1,0 +1,418 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:pop="http://www.tdbPopulation.com/"
+    xmlns:XSD="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population69">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1699.6</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rh�ne</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population24">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">410.7</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orogne</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population68">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.6</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">747.3</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haut-Rhin</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population18">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.5</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">312.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cher</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population1">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.4</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">585.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population38">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.9</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1192.9</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is�re</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population9">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.1</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150.7</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ari�ge</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population60">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">800.6</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oise</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population34">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1025.9</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H�rault</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population80">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.6</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">568.9</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Somme</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population14">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.6</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">679.6</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calvaos</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population45">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">652.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loiret</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population84">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">539.5</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaucluse</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population10">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">302.3</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aube</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population78">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1406.8</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yvelines</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population50">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.1</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">497.4</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manche</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population88">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.2</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">380.2</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vosges</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population59">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.6</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2568.5</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nor</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population23">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">123.8</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creuse</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population67">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1092.7</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bas-Rhin</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population27">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.5</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">580.0</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eure</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population33">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1428.0</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girone</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population53">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">304.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayenne</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population73">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.9</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">409.9</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Savoie</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population46">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.9</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">173.2</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lot</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population42">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.5</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">744.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population83">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.1</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1004.4</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Var</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population32">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.2</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">186.2</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gers</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population95">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1167.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Val-'Oise</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population36">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.8</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">232.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inre</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population7">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.2</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">312.5</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ar�che</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population56">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.1</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">713.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morbihan</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population91">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.8</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1206.9</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essonne</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population26">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.6</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">480.5</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r�me</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population72">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">560.3</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarthe</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population16">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.5</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">351.6</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charente</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population86">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">425.2</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vienne</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population57">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1043.6</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moselle</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population12">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.9</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">276.5</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aveyron</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population2">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.3</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">539.3</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aisne</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population30">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.2</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">698.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gar</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population21">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">522.9</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C�te-'Or</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population85">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.3</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">621.7</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ven�e</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population40">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.4</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">376.2</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lanes</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population19">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.5</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">243.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corr�ze</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population55">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.1</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">194.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meuse</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population39">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">261.0</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jura</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population25">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">524.0</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oubs</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population8">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">283.8</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arennes</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population15">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.6</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">148.6</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantal</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population89">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.8</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">342.9</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yonne</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population48">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.8</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">77.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loz�re</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population75">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2222.7</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population61">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.9</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">292.3</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orne</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population51">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.5</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">566.1</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marne</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population81">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.4</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">372.9</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarn</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population58">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">220.4</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni�vre</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population3">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.6</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">342.9</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allier</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population11">
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.7</pop:natalite>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">351.6</pop:popMoyenne>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aue</pop:depName>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pop:idDep>
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+  </rdf:Description>
+</rdf:RDF>

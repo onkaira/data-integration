@@ -1,0 +1,1053 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sdep="http://www.sante-dep-hbase.com/"
+    xmlns:pop="http://www.tdbPopulation.com/"
+    xmlns:XSD="http://www.w3.org/2001/XMLSchema#"
+    xmlns:neo="http://www.ville-neo4j.com/" > 
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep9">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ari�ge</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">707</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville31">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville28"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floirac</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville45">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville38"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Crès</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population68">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haut-Rhin</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">747.3</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.6</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population69">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rh�ne</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1699.6</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population18">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cher</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">312.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.5</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep60">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oise</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">290</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3903</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville12">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville8"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clichy</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population38">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is�re</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1192.9</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.9</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville15">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville8"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bagnolet</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep55">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meuse</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1360</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep38">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is�re</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">517</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4465</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population60">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oise</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">800.6</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep69">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rh�ne</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">756</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7820</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep1">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">202</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2172</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville29">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville28"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Talence</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep75">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1205</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23835</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep30">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gar</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">342</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2647</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population80">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Somme</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">568.9</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.6</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population10">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aube</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">302.3</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep40">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lanes</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">186</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1494</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep10">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aube</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">128</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1506</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville11">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville8"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levallois-Perret</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville7">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville8"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montrouge</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population88">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vosges</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">380.2</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.2</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville44">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville38"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lavérune</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville32">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville28"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cenon</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep61">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orne</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">134</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1971</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep89">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yonne</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">152</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1549</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep18">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cher</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">151</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2132</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville14">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville8"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Kremlin-Bicêtre</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population67">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bas-Rhin</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1092.7</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep8">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arennes</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">138</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1611</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep42">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">336</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4107</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville13">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville8"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malakoff</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep27">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eure</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">190</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1519</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population27">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eure</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">580.0</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.5</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population53">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayenne</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">304.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep56">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morbihan</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">334</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4031</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population73">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Savoie</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">409.9</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.9</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville28">
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bordeaux</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population42">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">744.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.5</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population32">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gers</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">186.2</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.2</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville43">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville38"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jacou</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville8">
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep7">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ar�che</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">132</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1412</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep19">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corr�ze</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">142</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1636</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population95">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Val-'Oise</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1167.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville17">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville18"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villeurbanne</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville27">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville28"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Bouscat</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep72">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarthe</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">237</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2895</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep26">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r�me</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">217</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2046</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population26">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r�me</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">480.5</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.6</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population56">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morbihan</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">713.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.1</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep53">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayenne</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">137</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1737</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep32">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gers</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">107</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1133</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville38">
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montpellier</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep12">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aveyron</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">155</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1907</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population86">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vienne</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">425.2</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville42">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville38"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Jean-de-Védas</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville5">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville3"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Rove</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population12">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aveyron</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">276.5</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.9</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population2">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aisne</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">539.3</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.3</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population30">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gar</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">698.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.2</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population85">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ven�e</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">621.7</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.3</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville16">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville8"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanves</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville30">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville28"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bègles</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population19">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corr�ze</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">243.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.5</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep95">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Val-'Oise</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">416</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3947</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville20">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville18"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Mulatière</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep73">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Savoie</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">214</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2198</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep25">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oubs</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">226</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2430</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population55">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meuse</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">194.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.1</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville26">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville18"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bron</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep39">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jura</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">122</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1687</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population39">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jura</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">261.0</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population25">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oubs</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">524.0</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population75">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2222.7</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville39">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville38"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clapiers</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville6">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville3"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Les Pennes-Mirabeau</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville41">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville38"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvignac</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population3">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allier</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">342.9</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.6</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville10">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville8"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Ouen</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep11">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aue</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">214</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1329</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population11">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aue</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">351.6</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.7</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville40">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville38"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lattes</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep24">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orogne</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">211</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1864</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population24">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orogne</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">410.7</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population1">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">585.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.4</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville21">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville18"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sainte-Foy-lès-Lyon</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population9">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ari�ge</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150.7</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.1</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville19">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville18"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caluire-et-Cuire</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population34">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H�rault</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1025.9</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep34">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H�rault</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">571</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4248</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep86">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vienne</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">226</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2377</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep83">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Var</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">534</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2812</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville3">
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marseille</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population14">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calvaos</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">679.6</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.6</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep59">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nor</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1107</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12576</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville36">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville28"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lormont</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population45">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loiret</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">652.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep14">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calvaos</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">310</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3540</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population84">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaucluse</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">539.5</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep45">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loiret</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">264</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2563</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population78">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yvelines</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1406.8</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population50">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manche</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">497.4</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.1</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep50">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manche</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">213</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2140</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population59">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nor</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2568.5</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.6</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep23">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creuse</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1011</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population23">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creuse</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">123.8</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville22">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville18"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tassin-la-Demi-Lune</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population33">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girone</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1428.0</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep33">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girone</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">796</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5518</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville18">
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyon</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep85">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ven�e</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">281</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2856</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep84">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaucluse</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">294</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2394</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population46">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lot</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">173.2</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.9</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville4">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville3"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allauch</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville37">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville38"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castelnau-le-Lez</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population83">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Var</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1004.4</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.1</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep46">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lot</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">640</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville23">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville18"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Écully</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep51">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marne</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">216</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3207</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population36">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inre</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">232.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.8</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep36">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inre</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1317</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population7">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ar�che</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">312.5</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.2</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep88">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vosges</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2099</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville9">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville8"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentilly</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population91">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essonne</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1206.9</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.8</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville33">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville28"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mérignac</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep57">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moselle</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">330</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4125</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville34">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville28"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pessac</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population72">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarthe</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">560.3</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population16">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charente</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">351.6</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.5</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep67">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bas-Rhin</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">336</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5367</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep3">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allier</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">204</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2619</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep81">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarn</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">186</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1441</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population57">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moselle</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1043.6</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville24">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville18"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oullins</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep16">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charente</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">204</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1831</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep21">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C�te-'Or</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">241</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2613</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population21">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C�te-'Or</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">522.9</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep91">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essonne</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">447</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2850</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population40">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lanes</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">376.2</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.4</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population8">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arennes</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">283.8</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville46">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville38"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montferrier-sur-Lez</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population15">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantal</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">148.6</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.6</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep15">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantal</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">96</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1342</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population89">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yonne</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">342.9</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.8</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep58">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni�vre</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">118</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1700</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville35">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville28"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bruges</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep80">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Somme</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">245</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3541</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville2">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville3"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plan-de-Cuques</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population48">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loz�re</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">77.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.8</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep68">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haut-Rhin</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">222</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3933</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population61">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orne</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">292.3</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.9</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep2">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aisne</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">234</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3465</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep78">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yvelines</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">537</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4203</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population51">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marne</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">566.1</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.5</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population81">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarn</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">372.9</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.4</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tdbPopulation.com/Population58">
+    <rdf:type rdf:resource="http://www.tdbPopulation.com/Population"/>
+    <pop:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58</pop:idDep>
+    <pop:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni�vre</pop:depName>
+    <pop:popMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">220.4</pop:popMoyenne>
+    <pop:natalite rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</pop:natalite>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep48">
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48</sdep:idDep>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loz�re</sdep:depName>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49</sdep:nbHopitaux>
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">635</sdep:nbPharmacies>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ville-neo4j.com/Ville25">
+    <neo:NEAR_TO_BIG_CITY rdf:resource="http://www.ville-neo4j.com/Ville18"/>
+    <neo:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Fons</neo:name>
+    <rdf:type rdf:resource="http://www.ville-neo4j.com/Ville"/>
+  </rdf:Description>
+</rdf:RDF>

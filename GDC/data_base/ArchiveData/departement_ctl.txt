@@ -1,0 +1,14 @@
+LOAD DATA 
+CHARACTERSET UTF8
+INFILE 'departement.csv'
+APPEND
+INTO TABLE DEPARTEMENT
+FIELDS TERMINATED BY X'9'
+( region  "to_char(:region)",
+departement  "to_char(:departement)",
+cheflieu "to_char(:cheflieu)",
+tncc  "to_char(:tncc)",
+ncc "to_char(:ncc)",
+nccenr "to_char(:nccenr)"
+)
+

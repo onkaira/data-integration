@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+| departement                                                    | nbrCommune |
+===============================================================================
+| "Seine-Saint-Denis"^^<http://www.w3.org/2001/XMLSchema#string> | 2          |
+| "Hauts-de-Seine"^^<http://www.w3.org/2001/XMLSchema#string>    | 5          |
+| "Charente-Maritime"^^<http://www.w3.org/2001/XMLSchema#string> | 3          |
+| "Val-de-Marne"^^<http://www.w3.org/2001/XMLSchema#string>      | 1          |
+| "Rhône"^^<http://www.w3.org/2001/XMLSchema#string>             | 8          |
+| "Loir-et-Cher"^^<http://www.w3.org/2001/XMLSchema#string>      | 1          |
+| "Somme"^^<http://www.w3.org/2001/XMLSchema#string>             | 1          |
+| "Lot"^^<http://www.w3.org/2001/XMLSchema#string>               | 1          |
+| "Gironde"^^<http://www.w3.org/2001/XMLSchema#string>           | 8          |
+| "Hérault"^^<http://www.w3.org/2001/XMLSchema#string>           | 8          |
+| "Bouches-du-Rhône"^^<http://www.w3.org/2001/XMLSchema#string>  | 2          |
+| "Charente"^^<http://www.w3.org/2001/XMLSchema#string>          | 1          |
+-------------------------------------------------------------------------------

@@ -1,0 +1,11 @@
+LOAD DATA 
+CHARACTERSET UTF8
+INFILE 'population.csv'
+APPEND
+INTO TABLE POP_DEP
+FIELDS TERMINATED BY X'9'
+( idDep  "to_char(:idDep)",
+depName "to_char(:depName)",
+popMoyenne  "to_char(:popMoyenne)",
+natalite "to_char(:natalite)"
+)

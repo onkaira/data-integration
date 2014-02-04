@@ -1,0 +1,11 @@
+LOAD DATA 
+CHARACTERSET UTF8
+INFILE 'sante.csv'
+APPEND
+INTO TABLE SANTE_DEP
+FIELDS TERMINATED BY X'9'
+( idDep  "to_char(:idDep)",
+depName "to_char(:depName)",
+nbHopitaux  "to_char(:nbHopitaux)",
+nbPharmacies "to_char(:nbPharmacies)"
+)

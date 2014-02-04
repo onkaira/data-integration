@@ -1,0 +1,418 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sdep="http://www.sante-dep-hbase.com/"
+    xmlns:XSD="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep9">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">707</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ari�ge</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep24">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1864</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">211</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orogne</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep60">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3903</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">290</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oise</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep38">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4465</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">517</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is�re</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep55">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1360</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meuse</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep69">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7820</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">756</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rh�ne</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep1">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2172</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">202</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep34">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4248</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">571</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H�rault</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep86">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2377</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">226</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vienne</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep83">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2812</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">534</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Var</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep75">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23835</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1205</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep30">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2647</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">342</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gar</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep59">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12576</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1107</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nor</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep14">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3540</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">310</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calvaos</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep40">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1494</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">186</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lanes</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep45">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2563</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">264</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loiret</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep10">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1506</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">128</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aube</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep50">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2140</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">213</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manche</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep23">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1011</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creuse</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep61">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1971</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">134</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orne</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep89">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1549</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">152</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yonne</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep18">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2132</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">151</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cher</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep42">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4107</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">336</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep8">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1611</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">138</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arennes</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep27">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1519</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">190</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eure</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep33">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5518</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">796</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girone</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep56">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4031</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">334</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morbihan</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep85">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2856</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">281</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ven�e</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep84">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2394</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">294</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaucluse</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep46">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">640</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lot</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep51">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3207</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">216</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marne</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep7">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1412</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">132</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ar�che</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep19">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1636</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">142</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corr�ze</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep72">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2895</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">237</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarthe</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep36">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1317</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inre</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep88">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2099</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vosges</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep26">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2046</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">217</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r�me</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep53">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1737</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">137</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayenne</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep57">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4125</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">330</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moselle</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep32">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1133</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">107</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gers</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep3">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2619</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">204</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allier</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep67">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5367</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">336</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bas-Rhin</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep81">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1441</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">186</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarn</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep12">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1907</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">155</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aveyron</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep16">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1831</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">204</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charente</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep21">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2613</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">241</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C�te-'Or</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep91">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2850</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">447</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essonne</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep95">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3947</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">416</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Val-'Oise</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep73">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2198</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">214</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Savoie</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep25">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2430</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">226</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oubs</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep39">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1687</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">122</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jura</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep15">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1342</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">96</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantal</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep58">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1700</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">118</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni�vre</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep80">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3541</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">245</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Somme</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep68">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3933</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">222</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haut-Rhin</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep2">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3465</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">234</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aisne</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep78">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4203</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">537</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yvelines</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep48">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">635</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loz�re</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sante-dep-hbase.com/SanteDep11">
+    <sdep:nbPharmacies rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1329</sdep:nbPharmacies>
+    <sdep:nbHopitaux rdf:datatype="http://www.w3.org/2001/XMLSchema#int">214</sdep:nbHopitaux>
+    <sdep:depName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aue</sdep:depName>
+    <sdep:idDep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</sdep:idDep>
+    <rdf:type rdf:resource="http://www.sante-dep-hbase.com/Sante"/>
+  </rdf:Description>
+</rdf:RDF>

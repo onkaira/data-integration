@@ -1,0 +1,13 @@
+LOAD DATA 
+CHARACTERSET UTF8
+INFILE 'isf_2002.csv'
+APPEND
+INTO TABLE Impot
+FIELDS TERMINATED BY ';'  trailing nullcols
+(  CodeImp "impot_cpt.nextval",
+CodeInsee "to_char(:CodeInsee)",
+nbreredevable,
+PatrimoineM,
+ImpotMoyen,
+annee
+)

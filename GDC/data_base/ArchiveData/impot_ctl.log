@@ -1,0 +1,57 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Jeu. Janv. 23 02:02:05 2014
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   impot_ctl.txt
+Character Set UTF8 specified for all input.
+
+Data File:      isf_2008.csv
+  Bad File:     isf_2008.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table IMPOT, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CODEIMP                             FIRST     *   ;       CHARACTER            
+    SQL string for column : "impot_cpt.nextval"
+CODEINSEE                            NEXT     *   ;       CHARACTER            
+    SQL string for column : "to_char(:CodeInsee)"
+NBREREDEVABLE                        NEXT     *   ;       CHARACTER            
+PATRIMOINEM                          NEXT     *   ;       CHARACTER            
+IMPOTMOYEN                           NEXT     *   ;       CHARACTER            
+ANNEE                                NEXT     *   ;       CHARACTER            
+
+
+Table IMPOT:
+  416 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  99072 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           416
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Jeu. Janv. 23 02:02:05 2014
+Run ended on Jeu. Janv. 23 02:02:05 2014
+
+Elapsed time was:     00:00:00.30
+CPU time was:         00:00:00.00
