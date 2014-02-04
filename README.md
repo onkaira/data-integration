@@ -1,7 +1,7 @@
 data-integration
 ================
 
-Projetct : Integration and interrogation of heterogeneous data.
+Project : Integration and interrogation of heterogeneous data.
 
 this project was created during my master degree for educational purpose.
 
